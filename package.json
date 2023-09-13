@@ -1,0 +1,29 @@
+{
+  "name": "authenticate-user.js",
+  "version": "1.0.0",
+  "description": "used for authentication of users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izroth/authenticate.js.git"
+  },
+  "keywords": [
+    "backend",
+    "authentication",
+    "validation",
+    "users"
+  ],
+  "author": "Lakhan Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izroth/authenticate.js/issues"
+  },
+  "homepage": "https://github.com/izroth/authenticate.js#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
