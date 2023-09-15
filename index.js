@@ -10,6 +10,7 @@ const createAuthPackage = (secretKey, userStorage = []) => {
     } catch (error) {
       return null;
     }
+    
   };
 
   const hashPassword = (password) => bcrypt.hashSync(password, 10);
